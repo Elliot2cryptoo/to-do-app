@@ -1,0 +1,22 @@
+{
+  "name": "taskflow-todo-app",
+  "version": "1.0.0",
+  "description": "Production-ready, accessible, modern To-Do list web application with vanilla JavaScript and localStorage",
+  "main": "script.js",
+  "scripts": {
+    "test": "node --test tests/app.test.js",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "todo",
+    "vanilla-js",
+    "accessible",
+    "localstorage",
+    "production-ready"
+  ],
+  "author": "TaskFlow",
+  "license": "MIT",
+  "devDependencies": {
+    "jsdom": "^25.0.1"
+  }
+}
